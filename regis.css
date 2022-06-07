@@ -1,0 +1,86 @@
+body{
+  /* background-color: rgb(56, 133, 146); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+background:lightgray;
+background-size: cover;
+}
+  
+  
+  /* display: inline; */
+
+
+
+.container{
+  /* border: 15px 5px solid; */
+  margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border: 1px groove ;
+    width: 40%;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}  
+
+ .inputBox{
+  padding-bottom: 15px;
+  float: left;
+  width: 45.9%; 
+} 
+/* .container .inputBox{
+  border: 10px solid  */
+
+
+.inputBox input[type=text]{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid green;
+  border-radius: 20px;
+}
+
+.inputBox #gender{
+  border-radius: 5px;
+}
+/* .container .inputBox input{
+  display: inline;
+  padding-right: 15px; */
+
+/* input{
+  padding: 5px;
+} */
+
+h3{
+  font-family:  Tahoma;
+  /* background-color: #333; */
+  color: black;
+  /* width: 50%; */
+/* border-bottom:  text-align: center; */
+border-radius: 20px;
+    border-bottom: 2px solid green;
+    font-size: 18px;
+    font-family: Tahoma ;
+  text-align: center;
+}
+button{
+  background-color: rgb(245, 147, 0);
+  color: rgb(255, 255, 255);
+  /* margin-top: 20px; */
+  text-align: center;
+  /* padding: 10px; */
+  border: 2px solid;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+.button a:hover{
+  color: red;
+}
+.button a{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}

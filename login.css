@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: black;
+    background: lightgrey;
+
+}
+.container{
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border: 1px groove ;
+    width: 30%;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+h3{
+    text-align: center;
+border-radius: 20px;
+    border-bottom: 2px solid green;
+    font-size: 18px;
+    font-family: Tahoma ;
+    
+}
+.inputit{
+    padding-bottom: 15px;
+    margin-top: 30px;
+    /* border-bottom: 2px solid green; */
+}
+.inputit input{
+    width: 90%;
+   
+    box-sizing: border-box;
+}
+.button{
+    border-radius: 20px;
+    background-color: green;
+    width: 40%;
+    margin: auto;
+   
+    
+}
+.button a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    
+   
+}
+.button a:hover{
+    color: red;
+}
+.inputit input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 20px;
+}
